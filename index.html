@@ -12,8 +12,16 @@
       We are ready to serve you.
     </h1>
 
-    form action="mailto:xyz@com.ca" method="post" 
+
+    <form action="mailto:xyz@com" method="post"
     enctype="text/plain">
+      <label>Name:</label><br/>
+        <input type="text" name="name"/><br/>
+      <label>E-mail:</label><br/>
+        <input type="text" name="mail"/><br/><br/>
+        <input type="submit" value="Send"/>
+        <input type="reset" name="Reset"/>
+    </form>
   </body>
 </html>
 
